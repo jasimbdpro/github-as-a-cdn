@@ -2,7 +2,7 @@
 
 ```js
 const githubUrl =
-  //Contents Github link here
+  //Content's Github URL here
   "https://github.com/user/repo/blob/main/image.png";
 
 const raw = githubUrl
