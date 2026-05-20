@@ -3,7 +3,7 @@
 ```js
 const githubUrl =
   //Content's Github URL here
-  "https://github.com/user/repo/blob/main/image.png";
+  "https://github.com/user/repo/blob/main/image_Uid_NXTe.png";
 
 const raw = githubUrl
   .replace("https://github.com/", "https://raw.githubusercontent.com/")
