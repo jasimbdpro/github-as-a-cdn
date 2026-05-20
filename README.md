@@ -1,4 +1,4 @@
-## Paste this code in browser console to make a file github URL to publicly accessible CDN
+### Paste this code in browser console to make a file's github URL to publicly accessible CDN URL:
 
 ```js
 const githubUrl =
