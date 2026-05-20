@@ -1,4 +1,4 @@
-### Paste this code in browser console to make a file's github URL to publicly accessible CDN URL (every image/file's name should include unique id like "_Uid_N3Te" at last, it helps make URL unique per image/file):
+### Paste this code in browser console to make a file's github URL to publicly accessible CDN URL (every image/file's name should include unique id like "_Uid_N3Te" at last, it helps make URL as unique per image/file):
 
 ```js
 const githubUrl =
