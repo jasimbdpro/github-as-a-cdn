@@ -1,10 +1,16 @@
-Run this commain in browser console to convert image's github link to cdn link:
-
+```js
 const githubUrl =
-  "https://github.com/jasimbdpro/github-as-a-cdn/blob/main/uploads/09062d0b-f548-44ff-9844-4b4a0bfc75b3.jpg";
+  "https://github.com/user/repo/blob/main/image.png";
 
 const raw = githubUrl
   .replace("https://github.com/", "https://raw.githubusercontent.com/")
   .replace("/blob/", "/");
 
 console.log(raw);
+
+const cdn = githubUrl
+  .replace("https://github.com/", "https://cdn.jsdelivr.net/gh/")
+  .replace("/blob/", "@");
+
+console.log(cdn);
+```
